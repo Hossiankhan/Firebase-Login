@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FirebaseLogin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#F9EBE8</item>
+    </style>
+
+    <style name="Theme.FirebaseLogin" parent="Base.Theme.FirebaseLogin" />
+
+    <style name="ThemeOverlay.CoustomButton" parent="" >
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="ThemeOverlay.Coustom_edit_box" parent="" >
+        <item name="android:width">10dp</item>
+        <item name="color">#6B6969</item>
+        <item name="cornerRadius">15dp</item>
+    </style>
+</resources>
